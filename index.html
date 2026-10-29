@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CataByte: equipo indie de videojuegos retro. Desarrollo, pixel art y música chiptune.">
+    <title>CataByte | Videojuegos indie retro</title>
+    <link rel="icon" href="img/icon-pixel.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bytesized&family=Jersey+10&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="barra">
+    <a class="marca" href="#inicio"><img src="img/icon-pixel.png" alt="" width="32" height="32">CataByte</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu">Menú</button>
+    <nav id="menu" aria-label="Principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+    <div class="contenedor hero-grid">
+        <div class="hero-texto">
+            <h1>CataByte</h1>
+            <p class="titular">Juegos pequeños con alma de 8 bits</p>
+            <p>Somos un equipo indie muy pequeño que crea videojuegos retro y ayuda a otros creadores a sacar los suyos con pixel art, música chiptune y código ligero.</p>
+            <div class="botones">
+                <a class="btn" href="#servicios">Conoce nuestros servicios</a>
+                <a class="btn btn-sec" href="#contacto">Solicita una cotización</a>
+            </div>
+        </div>
+        <figure class="pantalla">
+            <img class="pixel-art" src="img/hero.png" alt="Paisaje nocturno en pixel art con un personaje sobre una plataforma" width="960" height="600">
+            <img class="pantalla-logo pixel-art" src="img/logo-tencas-game.png" alt="Logo de Tenca's Game" width="200" height="101">
+        </figure>
+    </div>
+</section>
+
+<section class="presentacion">
+    <div class="contenedor">
+        <h2>¿Qué hacemos en CataByte?</h2>
+        <div class="datos">
+            <article><h3>A qué nos dedicamos</h3><p>Diseñamos y programamos videojuegos indie de estilo retro, y ofrecemos nuestros servicios de desarrollo y arte a otros proyectos.</p></article>
+            <article><h3>Qué necesidad resolvemos</h3><p>Muchas ideas se quedan sin hacer por falta de manos, tiempo o presupuesto. Nosotros las convertimos en prototipos jugables.</p></article>
+            <article><h3>A quién nos dirigimos</h3><p>Creadores independientes, estudiantes, marcas y pequeñas empresas que quieren un juego con identidad nostálgica.</p></article>
+            <article><h3>Nuestra ventaja</h3><p>Equipo pequeño, trato directo y entregas rápidas. Hablas con quien hace el juego, sin intermediarios.</p></article>
+        </div>
+    </div>
+</section>
+
+<section class="accesos" aria-label="Accesos rápidos">
+    <div class="contenedor accesos-grid">
+        <a class="acceso" href="#servicios"><img src="img/icon-juego.png" alt="" width="64" height="64"><span>Servicios</span></a>
+        <a class="acceso" href="#galeria"><img src="img/icon-galeria.png" alt="" width="64" height="64"><span>Galería</span></a>
+        <a class="acceso" href="#contacto"><img src="img/icon-contacto.png" alt="" width="64" height="64"><span>Contacto</span></a>
+    </div>
+</section>
+
+<section class="seccion" id="nosotros">
+    <div class="contenedor dos-col">
+        <div>
+            <h2>Nosotros</h2>
+            <p>CataByte nació entre amigos que crecieron con consolas de cartucho y pantallas de píxeles gruesos. Hoy somos un estudio pequeño donde cada persona programa, dibuja o compone, y todos jugamos lo que hacemos.</p>
+            <p>Creemos que un juego retro no es solo nostalgia: es diseño claro, controles precisos y partidas que se entienden en diez segundos.</p>
+            <ul class="lista">
+                <li>Programación y diseño de niveles</li>
+                <li>Pixel art y animación por cuadros</li>
+                <li>Música y efectos chiptune</li>
+            </ul>
+        </div>
+        <aside class="proyecto">
+            <img class="pixel-art" src="img/logo-tencas-game.png" alt="Logo de Tenca's Game" width="300" height="152">
+            <h3>Proyecto actual: Tenca's Game</h3>
+            <p>Nuestro juego en desarrollo, hecho con la misma receta que ofrecemos a nuestros clientes.</p>
+        </aside>
+    </div>
+</section>
+
+<section class="seccion oscuro" id="servicios">
+    <div class="contenedor">
+        <h2>Servicios</h2>
+        <p class="intro">Precios de referencia en pesos mexicanos. Cada proyecto se cotiza según su alcance.</p>
+        <div class="tarjetas">
+            <article class="tarjeta">
+                <img class="pixel-art" src="img/icon-juego.png" alt="Icono de control de videojuegos" width="72" height="72">
+                <h3>Juego retro a medida</h3>
+                <p>Creamos tu juego completo en 2D: mecánicas, niveles, menús y pruebas, con la estética clásica de 8 o 16 bits.</p>
+                <p class="beneficio">Beneficio: un juego terminado, listo para publicar.</p>
+                <p class="precio">Desde $15,000 MXN</p>
+                <button class="btn cotizar" data-servicio="Juego retro a medida">Solicitar cotización</button>
+            </article>
+            <article class="tarjeta">
+                <img class="pixel-art" src="img/icon-pixel.png" alt="Icono de corazón en pixel art" width="72" height="72">
+                <h3>Pixel art y animación</h3>
+                <p>Personajes, fondos, objetos e interfaz dibujados a mano en una paleta limitada, con animaciones fluidas por cuadros.</p>
+                <p class="beneficio">Beneficio: una identidad visual única y coherente.</p>
+                <p class="precio">Desde $3,500 MXN</p>
+                <button class="btn cotizar" data-servicio="Pixel art y animación">Pedir información</button>
+            </article>
+            <article class="tarjeta">
+                <img class="pixel-art" src="img/icon-musica.png" alt="Icono de nota musical" width="72" height="72">
+                <h3>Música y sonido chiptune</h3>
+                <p>Composición de temas y efectos de sonido con sintetizadores de la vieja escuela, en loops listos para tu juego.</p>
+                <p class="beneficio">Beneficio: un ambiente sonoro que se queda en la cabeza.</p>
+                <p class="precio">Desde $2,800 MXN</p>
+                <button class="btn cotizar" data-servicio="Música y sonido chiptune">Solicitar cotización</button>
+            </article>
+            <article class="tarjeta">
+                <img class="pixel-art" src="img/icon-rapido.png" alt="Icono de rayo" width="72" height="72">
+                <h3>Prototipo para game jam</h3>
+                <p>Convertimos tu idea en un prototipo jugable en pocos días, ideal para validarla o para participar en una game jam.</p>
+                <p class="beneficio">Beneficio: pruebas tu idea antes de invertir más.</p>
+                <p class="precio">Desde $6,000 MXN</p>
+                <button class="btn cotizar" data-servicio="Prototipo para game jam">Pedir información</button>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="seccion" id="galeria">
+    <div class="contenedor">
+        <h2>Galería</h2>
+        <p class="intro">Haz clic en una imagen para verla en grande.</p>
+        <div class="galeria">
+            <button class="foto" data-i="0"><img class="pixel-art" src="img/galeria-1.png" alt="Nuestro estudio con dos escritorios y monitores" width="800" height="500" loading="lazy"><span>Nuestro estudio</span></button>
+            <button class="foto" data-i="1"><img class="pixel-art" src="img/galeria-2.png" alt="Cartucho de videojuego con etiqueta naranja" width="800" height="500" loading="lazy"><span>Producto: el cartucho</span></button>
+            <button class="foto" data-i="2"><img class="pixel-art" src="img/galeria-3.png" alt="Editor de pixel art con un corazón en construcción" width="800" height="500" loading="lazy"><span>Dibujando un sprite</span></button>
+            <button class="foto" data-i="3"><img class="pixel-art" src="img/galeria-4.png" alt="Cuatro integrantes del equipo bajo un letrero" width="800" height="500" loading="lazy"><span>El equipo</span></button>
+            <button class="foto" data-i="4"><img class="pixel-art" src="img/galeria-5.png" alt="Conversación entre una persona del equipo y un cliente" width="800" height="500" loading="lazy"><span>Atención al cliente</span></button>
+            <button class="foto" data-i="5"><img class="pixel-art" src="img/galeria-6.png" alt="Nivel terminado de un juego de plataformas" width="800" height="500" loading="lazy"><span>Proyecto terminado</span></button>
+        </div>
+    </div>
+</section>
+
+<section class="seccion oscuro" id="contacto">
+    <div class="contenedor dos-col">
+        <div>
+            <h2>Contacto</h2>
+            <p>Cuéntanos tu idea y te respondemos con una propuesta. Reemplaza estos datos por los reales de tu equipo.</p>
+            <ul class="lista">
+                <li>Correo: hola@catabyte.com</li>
+                <li>Redes: @catabyte</li>
+                <li>Horario: lunes a viernes, 10:00 a 18:00</li>
+            </ul>
+        </div>
+        <form id="formulario" novalidate>
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" autocomplete="name">
+            <small class="error" data-for="nombre"></small>
+
+            <label for="correo">Correo</label>
+            <input id="correo" name="correo" type="email" autocomplete="email">
+            <small class="error" data-for="correo"></small>
+
+            <label for="servicio">Servicio de interés</label>
+            <select id="servicio" name="servicio">
+                <option value="">Elige una opción</option>
+                <option>Juego retro a medida</option>
+                <option>Pixel art y animación</option>
+                <option>Música y sonido chiptune</option>
+                <option>Prototipo para game jam</option>
+            </select>
+            <small class="error" data-for="servicio"></small>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+            <small class="error" data-for="mensaje"></small>
+
+            <button class="btn" type="submit">Enviar mensaje</button>
+            <p class="estado" id="estado" role="status"></p>
+        </form>
+    </div>
+</section>
+</main>
+
+<footer>
+    <p>© 2026 CataByte. Hecho con píxeles y café.</p>
+</footer>
+
+<div class="visor" id="visor" hidden>
+    <button class="visor-cerrar" id="visorCerrar" aria-label="Cerrar">X</button>
+    <button class="visor-nav" id="visorPrev" aria-label="Anterior">&lt;</button>
+    <figure><img class="pixel-art" id="visorImg" src="" alt=""><figcaption id="visorPie"></figcaption></figure>
+    <button class="visor-nav" id="visorNext" aria-label="Siguiente">&gt;</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
